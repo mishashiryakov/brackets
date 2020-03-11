@@ -1,7 +1,6 @@
 const assert = require('assert');
 Object.freeze(assert);
 const check = require('./src/index.js');
-
 const config1 = [['(', ')']];
 const config2 = [['(', ')'], ['[', ']']];
 const config3 = [['(', ')'], ['[', ']'], ['{', '}']];
